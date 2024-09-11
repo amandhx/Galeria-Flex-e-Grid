@@ -1,0 +1,33 @@
+/* Estilos gerais da página */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(219, 147, 162);
+    margin: 0;
+    padding: 0;
+}
+
+/* Container da galeria usando Grid */
+.grid-gallery-container{
+    display: grid; /* Ativa o CSS Grid */
+    grid-template-columns: repeat(auto-fill, minmax(200px,1fr)); /* Define o grid com colunas flexíveis */
+    gap: 10px; /* Espaçamento entre os itens */
+    padding: 200px;
+}
+
+/* Cada item da galeria */
+.grid-gallery-item{
+    border: 6px solid #c7c7c7;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+/* Estilo para as imagens */
+.grid-gallery-item img{
+    width: 100%; /* Garante que a imagem preencha todo o espaço disponível */
+    height: 100%; /* Mantém a proporção da imagem */
+}
+
+.titulo{
+    color: rgb(127, 11, 19);
+    font-family:serif;
+}
